@@ -3,7 +3,7 @@ console.log(number)
 
 for (let yakusuu = 2; index < number; yakusuu++){
     if(number % yakusuu === 0){
-        console.log(number,'は' yakusuu, 'で割り切れるので素数ではありません')
+        console.log(number,'は' , yakusuu, 'で割り切れるので素数ではありません')
         break
     }
 }
