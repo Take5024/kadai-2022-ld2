@@ -10,11 +10,19 @@ const dictionary ={
     hobby: "趣味",
     major: "専攻",
 }
-const key of Object.keys(profile)
-for (const key of keys){
-    const subject = dictionary[key]
-    const value =  profile[key]
+//const key of Object.keys(profile)
+//for (const key of keys){
+    //const subject = dictionary[key]
+    //const value =  profile[key]
     //console.log("私の名前は" + profle.name + "です")
-    console.log(key)
-    console.log("私の" + dictionary[key] + "は" + profile[key] + "です")
+    //console.log(key)
+    //console.log("私の" + dictionary[key] + "は" + profile[key] + "です")
+//}
+
+const keys = Object.keys(profile)
+
+for (const key of keys) {
+    const subject = dictionary[key]
+    const value = profile[key]
+    console.log("私の" + subject + "は" + value + "です")
 }
